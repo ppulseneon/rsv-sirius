@@ -7,7 +7,7 @@ from database import *
 from api import *
 from models.user import *
 
-API_TOKEN = '7167879358:AAEaW8nrP_MOQTWnNUfeY-t7M6fybGVTuis'
+API_TOKEN = '%API_TOKEN%'
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['start'])

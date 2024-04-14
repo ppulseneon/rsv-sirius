@@ -1,11 +1,12 @@
 # Контролируем цены вместе
 
 Проект содержит в себе следующие части:
-- [Скрипт получения данных для проверки](https://github.com/ppulseneon/rsv-sirius/tree/main/categories)
-- Обучение модели yolo5
-- Определение текста на чеке
-- Определение категории товара
-- Определение социальной цены на стелаже
+- API-определитель
+- Скрипт получения данных для проверки
+- [Определение объектов на ценнике](https://github.com/ppulseneon/rsv-sirius/blob/main/detection/detection.py)
+- [Определение текста на ценнике](https://github.com/ppulseneon/rsv-sirius/blob/main/detection/image2text.py)
+- [Определение категории товара](https://github.com/ppulseneon/rsv-sirius/tree/main/categories)
+- [Определение социальной цены на стелаже](https://github.com/ppulseneon/rsv-sirius/tree/main/check_social_price)
 
 - [Telegram-bot проекта](https://github.com/ppulseneon/rsv-sirius/tree/main/telegram-bot)
 
@@ -16,3 +17,7 @@
 
 ### Скрипт получения данных для проверки
 1. Запустить ```main.py``` из этого каталога
+
+### Запуск API
+1. Запустить ```app.py``` из этого каталога
+2. Порт 1234
